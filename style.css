@@ -1,3 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: #cdcd12;
+    background-color: #EFF6FF;
+}
+
+.main-container{
+    margin: auto;
+    margin-top: 3%;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    background-color: #cdf123;
+}
+
+header{
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+}
+
+.main-field{
+    flex-basis: 50%;
+    height: 100%;
+    background-color: coral;
+}
+
+.logo{
+    width: 18%;
+    margin-top: 4%;
+    margin-left: 6%;
 }
