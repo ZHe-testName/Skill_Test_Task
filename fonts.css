@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Barlow-Light';
+    src: url(./fonts/Barlow-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Barlow-Medium';
+    src: url(./fonts/Barlow-Medium.otf);
+    font-weight: normal;
+    font-style: normal;
+}

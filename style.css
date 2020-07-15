@@ -1,6 +1,17 @@
+@import url(./fonts.css);
+
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Barlow-LIght';
+    color: #2A4A5C;
+}
+
+p{
+    font-family: 'Barlow-LIght';
+    color: #7B8A92;
 }
 
 body{
