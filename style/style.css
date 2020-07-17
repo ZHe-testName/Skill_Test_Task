@@ -34,7 +34,7 @@ p{
 /* header block sheilds */
 
 header{
-    background-image: url(./img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     flex-basis: 50%;
@@ -82,12 +82,12 @@ header{
 
 .linkedin{
     background-color: #0076B6;
-    background-image: url(./img/linkedin.svg);
+    background-image: url(../img/linkedin.svg);
 }
 
 .fb{
     background-color: #255A9B;
-    background-image: url(./img/facebook.svg);
+    background-image: url(../img/facebook.svg);
 }
 
 .or{
