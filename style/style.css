@@ -22,13 +22,16 @@ p{
     color: #7B8A92;
 }
 
+form{
+    margin: 0;
+}
+
 /* Main block sheild */
 
 .main-container{
     margin: auto;
     margin-top: 3%;
     width: 90%;
-    height: 90%;
     display: flex;
 }
 
@@ -176,6 +179,7 @@ button:hover{
 
 .radio-block{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Barlow-Medium';
     font-size: .8em;
@@ -275,4 +279,112 @@ input[type="radio"]:checked + label:before {
     transition: all;
     transition-duration: .6s;
     transform: scale(1.2);
+}
+
+
+/* Media Requests Field */
+
+
+@media(max-width: 986px){
+    .buttons-block{
+        flex-direction: column;
+        margin-top: 1%;
+    }
+
+    .buttons-block>button{
+        width: 80%;
+        margin-top: 2%;
+    }
+
+    .registration-section>h2, p{
+        font-size: 1rem;
+        margin: 1% 0;
+    }
+
+    .question-block>p{
+        display: none;
+    }
+
+    .input-field{
+        flex-direction: column;
+    }
+
+    .input-box{
+        width: 80%;
+        margin-top: 2%;
+        flex-direction: row;
+    }
+
+    .input-box>span{
+        margin: 0;
+    }
+
+    .radio-elem{
+        margin-top: 6%;
+        flex-basis: 50%;
+    }
+
+    .description{
+        width: 100%;
+        margin: 0;
+        margin-top: 4%;
+    }
+
+    .description>p{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 716px){
+    header{
+        width: 100%;
+        min-height: 150px;
+    }
+
+    /* .main-field{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .registration-form{
+        margin-top: 2%;
+    }
+    
+    .buttons-block{
+        margin-top: 2%;
+    }
+
+    .input-field{
+        margin: 0;
+        flex-direction: row;
+    }
+
+    .input-box{
+        width: 45%;
+        flex-direction: column;
+    }
+
+    .question-block {
+        margin: 3% 0;
+    }
+
+    .question-block>h3{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 478px){
+    .input-field{
+        flex-direction: column;
+    }
+
+    .input-box{
+        width: 80%;
+        flex-direction: row;
+    }
 }
