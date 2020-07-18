@@ -149,3 +149,16 @@ header{
     outline: none;
 }
 
+/*questions block form sheilds*/
+
+.question-block{
+    margin: 5% 0;
+}
+
+.question-block>p{
+    font-size: .8em;
+}
+
+.question-block>h3, p{
+    margin: 0px;
+}
