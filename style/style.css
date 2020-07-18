@@ -54,12 +54,14 @@ header{
     background-color: #fff;
 }
 
-/*registration section sheilds*/
+/*registration section and form sheilds*/
 
-.registration-section{
+.registration-section, .registration-form{
     margin: auto 10%;
     margin-top: 8%;
 }
+
+/*registration buttons shield*/
 
 .buttons-block{
     display: flex;
@@ -90,6 +92,8 @@ header{
     background-image: url(../img/facebook.svg);
 }
 
+/*OR block shield*/
+
 .or{
     margin-top: 6%;
     font-family: 'Barlow-Medium';
@@ -110,3 +114,38 @@ header{
     width: 20%;
 
 }
+
+/*inputs form sheilds*/
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    color: #a5a4a4;
+    font-size: .9em;
+    border: 1px solid #EEEEEE;
+    padding: 1%;
+    width: 45%;
+}
+
+.active{
+    border-left: 1px solid #3698FB;
+}
+
+.input-box>span{
+    margin-bottom: 3%;
+}
+
+.input-box>input{
+    border: none;
+}
+
+.input-box>input:focus{
+    outline: none;
+}
+
