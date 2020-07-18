@@ -58,7 +58,7 @@ header{
 
 .registration-section, .registration-form{
     margin: auto 10%;
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 /*registration buttons shield*/
@@ -67,10 +67,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
-.buttons-block > button{
+button, input[type="submit"]{
     color: #ffffff;
     border: none;
     font-family: 'Barlow-LIght';
@@ -95,7 +95,7 @@ header{
 /*OR block shield*/
 
 .or{
-    margin-top: 6%;
+    margin-top: 4%;
     font-family: 'Barlow-Medium';
     font-size: .7rem;
     display: flex;
@@ -222,4 +222,40 @@ input[type="radio"]:checked + label:before {
     color: #AFAFAF;
     margin-top: 4%;
     cursor: pointer;
+}
+
+/*popup block form sheilds*/
+
+.description{
+    display: none;
+    padding: 1%;
+    padding-bottom: 3%;
+    width: 50%;
+    font-size: .8rem;
+    margin-top: 6%;
+    margin-left: 6%;
+    box-shadow: 0 0 8px #8b8b8b;
+}
+
+.description-active{
+    display: block;
+}
+
+/*agreement form sheilds*/
+
+.agreement{
+    margin: 3% 0;
+    font-size: .7rem;
+    color: #888888;
+}
+
+.agreement-link{
+    color: #3698FB;
+}
+
+/*submit form sheild*/
+
+.submit{
+    background-color: #3698FB;
+    margin: 4% 0;
 }
