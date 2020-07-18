@@ -134,7 +134,7 @@ header{
 }
 
 .input-active{
-    border-left: 1px solid #3698FB;
+    border-left: 2px solid #3698FB;
 }
 
 .input-box>span{
@@ -210,13 +210,15 @@ input[type="radio"]:checked + label:before {
 }
 
 .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 4%;
     border: 1px solid #888888;
     border-radius: 50%;
-    font-size: .7em;
-    width: 10px;
-    height: 10px;
-    text-align: center;
+    font-size: .8em;
+    width: 15px;
+    height: 12px;
     color: #AFAFAF;
     margin-top: 4%;
     cursor: pointer;
